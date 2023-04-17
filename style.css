@@ -1,4 +1,103 @@
-header {
-    background-color: #424E61;
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #e5a880;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cafeteria-imagem{
+    width: 15%;
+}
+
+.cafeteria{
+    background-image: linear-gradient(#e5a880, #eeb076 );
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cafeteria-div-conteudo{
+    width: 35%;
+}
+
+
+.cafeteria-titulo{
+    padding: 24px 0;
+}
+
+.produção{
+    background-image: linear-gradient(#eeb076,#e5a880 );
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    
+}
+
+.fazenda-imagem{
+   width: 250px;
+   text-align: center;
+   background-image: linear-gradient(#e5a880, #f3ad6b ) 
+}
+
+
+.texto{
+  text-align: center;
+    padding: 24px 0;
+    
+ }  
+.produção-div-conteudo{
+    
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.produção-texto-dois{
+    width: 45%;
+    padding: 24px 0;
+    
+}
+.produção-titulo{
+   padding: 24px 0;
+   
+}
+
+.todos{
+  
+    grid-template-columns: 20% 20% 20% 20% 20%;
+   
+}
+
+.rodape{
+    background-color: #e5a880;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 250px;
+    padding: 12px 0;
+   
 }
